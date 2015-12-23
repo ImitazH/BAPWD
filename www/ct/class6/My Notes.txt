@@ -1,0 +1,25 @@
+TYPE of Form to be made with PHP:
+
+1. Login Form
+2. Signup Form / Registration Form
+3. Contact Form
+4. Review Form
+5. checkout form
+6. comment form
+
+http://voky.com.ua/showcase/sky-forms/
+
+
+
+Link of Different Types of Form: http://myflashlab.com/showcase/PHP_CONTACT_FORM/
+
+1.DOnation Form
+2. Feedback Form
+3. Job Application Form
+4. Login Form
+5. Order Form
+6. Registration Form
+7. Contact Form
+8. Ticket Subission Form
+
+

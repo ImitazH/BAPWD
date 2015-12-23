@@ -1,0 +1,81 @@
+/*  this are the form display classes */
+
+input, textarea {
+}
+
+/* main title of the form */
+.form_title {
+	font : bold 12px Tahoma;
+	color: #456897;
+	padding: 25px 0px 10px 0px;
+}
+
+/* main text of the form */
+.form_text {
+	color: #4D7090;
+	font-size: 11px;
+	margin-top: 10px; 
+	margin-left: 10px; 
+}
+
+/* row definition */
+.form_row {
+	margin-left: 10px;
+	margin-top: 10px;
+	line-height : 15px;
+}
+
+/* the label of the form */
+.form_label {
+	color: #4D7090;
+	font-size: 12px;
+	width: 170px;
+	height: 42px;
+	text-align: left;
+}
+
+/* input field of the form */
+.form_input {
+	color: #4D7090;
+	margin-top: -45px;
+	margin-left: 180px;
+
+}
+
+/* submit button position */
+.form_submit {
+	margin-left: 180px;
+}
+
+/* checkbox style */
+.form_checkbox {
+}
+
+/* radio button style */
+.form_radio {
+}
+
+/* drop down style */
+.form_dropdown {
+}
+
+/* form validation*/
+
+.form_optional_field
+{
+	border-style: solid;
+	border-width: 1px; 
+	border-color: #cccccc;
+}
+
+.form_required_field
+{
+	border-style: solid;
+	border-width: 1px; 
+	border-color: #cccccc;
+}
+
+.form_failed_field
+{
+    border: 1px solid #CC0000;
+} 

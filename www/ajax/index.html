@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title> Ajax with Bootstrap - Udemy course</title>
+	
+	<script>
+//		alert('Thi is also a alert');
+		
+		function ajax_request(){
+			// XMLHttpRequest(); //object of the ajax and the whole ajax depends on this obejct.
+			
+			var xmlhttp = new XMLHttpRequest(); // adding 'new' instance. That means we are not creating a new object but adding some new things to this existing object.
+			
+			xmlhttp.open('GET','data.php',true); // For big data we will use POST, or small data we will use GET. 
+			xmlhttp.send();
+		}
+	</script>
+</head>
+<body>
+	
+<!--	<button type="button" onclick="alert('Hello World');"> Click Me </button>-->
+	<button type="button" onclick="ajax_request();"> Click Me </button>
+	
+</body>
+</html>

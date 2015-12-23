@@ -1,0 +1,38 @@
+<!-- This page is connected with data3.php-->
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title> Ajax with Bootstrap </title>
+
+		<script>
+
+
+			function ajax_request(get_val){
+
+				var xmlhttp = new XMLHttpRequest();
+
+				xmlhttp.open('GET','data3.php?var1='+ get_val,true);
+				xmlhttp.send();
+				
+				xmlhttp.onreadystatechange = function(){
+					if(xmlhttp.readyState == 4 && xmlhttp.status ==  200){ 
+						var resutl = document.getElementById('result');
+						result.innerHTML = xmlhttp.responseText;
+					}
+				}
+			} 
+
+		</script>
+	</head>
+	<body>
+
+
+		<input type="text" onkeyup="ajax_request(this.value)">   <!-- this.value is a JS method. -->
+<!--		onkeypress dile puro value lekhar por ENter dite hoy. onkeyup dile puro value lekha sesh holei result show kore. -->
+		
+		<div id="result"> Type a value from the list.</div>
+
+
+	</body>
+</html>

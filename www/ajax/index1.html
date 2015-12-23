@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title> Ajax with Bootstrap </title>
+	
+	<script>
+		
+		function ajax_request(){
+			
+			var xmlhttp = new XMLHttpRequest();
+			xmlhttp.onreadystatechange = function(){
+				if(xmlhttp.readyState == 4 && xmlhttp.status ==  200){ // means, if request finished and response is ready and if the page exist/ok then the condition will be executed.
+					var resutl = document.getElementById('result');
+					result.innerHTML = xmlhttp.responseText; // responseText is the data that we will get from data.php file. 
+					
+				}
+			}
+			xmlhttp.open('GET','data.php',true);
+			xmlhttp.send();
+			
+			// ajax_request() is a funciton.
+			// XMLHttpRequest() is a object.
+			// open,send, onreadystatechange, responseText these are methods of XMLHttpRequest() object.
+			
+		} 
+		
+	</script>
+	
+</head>
+<body>
+	
+	<button type="button" onclick="ajax_request();"> Click Me </button>
+<!--	<div id="result"></div>-->
+	<div id="result"> This is the resutl div</div>
+
+	
+</body>
+</html>

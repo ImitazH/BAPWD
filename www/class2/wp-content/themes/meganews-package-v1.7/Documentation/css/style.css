@@ -1,0 +1,220 @@
+/* -------------------- tag styles --------------------*/
+body,td,div {font-family: 'Raleway', sans-serif; font-size: 13px; line-height: 1.8; font-weight: 400;}
+html,body{margin:0;padding:0;height:100%;border:none;}
+table {border-spacing: 0px; border-collapse: collapse;}
+td {vertical-align: top; padding:0px;}
+img {border: 0px;}
+form{margin:0px; padding:0px;}
+
+h1, h2, h3, h4, h5, h6 {font-family: 'Raleway', sans-serif; color: #222; font-weight: 800; }
+h1 {font-size: 20px;}
+h2 {font-size: 18px;}
+h3 {font-size: 16px;}
+h4 {font-size: 14px;}
+h5 {font-size: 12px;}
+h6 {font-size: 10px;}
+
+a { color: #e00008; text-decoration: none; }
+a:hover { text-decoration: none;}
+a:focus {outline: none;}
+a:active {}
+a:visited {}
+
+/* -------------------- standard styles --------------------*/
+.b {font-weight: bold;}
+.n {font-weight: normal;}
+.i {font-style: italic;}
+
+.tr{text-align:right;}
+.tl{text-align:left;}
+.tc{text-align:center;}
+
+.pa {position: absolute;}
+.pr {position: relative;}
+
+.fl {float: left;}
+.fr {float: right;}
+
+.fs10 {font-size: 10px;}
+.fs11 {font-size: 11px;}
+.fs12 {font-size: 12px;}
+.fs13 {font-size: 13px;}
+.fs14 {font-size: 14px;}
+.fs16 {font-size: 16px;}
+.fs18 {font-size: 18px;}
+
+.fc1 {color: #000;}
+.fc2 {color: #FFF;}
+.fc3 {color: #505050;} /*gray*/
+
+.ls25 {letter-spacing: 0.025em;}
+
+a.lnk1 {color: gray;}
+a.lnk1:hover {color: silver;}
+
+a.lnk2 {color: red;}
+a.lnk2:hover {color: blue;}
+
+a.lnk3 {color: green;}
+a.lnk3:hover {color: purple;}
+
+pre {
+white-space: pre-wrap; /* css-3 */
+white-space: -moz-pre-wrap !important; /* Mozilla, since 1999 */
+white-space: -pre-wrap; /* Opera 4-6 */
+white-space: -o-pre-wrap; /* Opera 7 */
+word-wrap: break-word; /* Internet Explorer 5.5+ */
+background: #fcf8e5;
+font-size: 10px;
+padding: 10px;
+}
+
+/* -------------------------------------------------------------------------------------------*/
+
+/* -------------------- HEAD start --------------------*/
+#header {
+	height: 137px;
+	margin: 0 0 9px 0;
+	border-top: 6px solid #222;
+}
+#head {width: 980px; height: 137px; margin: 0 auto;}
+#head img {
+	margin-top: 40px;
+}
+/* --------------------- HEAD end ---------------------*/
+
+/* -------------------- MAIN start --------------------*/
+div#content {}
+div#container {
+	position:relative; /* needed for footer positioning*/
+	margin:0 auto; /* center, not in IE5 */
+	height:auto !important; /* real browsers */
+	height:100%;/* IE6: treaded as min-height*/
+	min-height:100%; /* real browsers */
+}
+div#main {
+	width: 980px; 
+	margin: 0 auto;
+	padding-bottom: 183px;
+}
+/* --------------------- MAIN end ---------------------*/
+
+/* -------------------- FOOT start --------------------*/
+div#footer {
+	position:absolute;
+	bottom:0; /* stick to bottom */
+	width:100%;
+	clear:left;
+	height: 183px;
+	background: #b2b2b2;
+}
+div#foot {width: 980px; height: 183px; margin: 0 auto; background: #b2b2b2;}
+/* --------------------- FOOT end ---------------------*/
+
+
+.clear { clear: both; }
+.separator {
+	border-top: 3px solid #444;
+	margin: 60px 0;
+}
+
+.info {
+	background: #daedf6;
+	padding: 20px 40px;
+	margin-bottom: 30px;
+}
+.info img {
+	float: left;
+	width: 17px;
+	margin-top: 25px;
+}
+.info p {
+	float: left;
+	width: 790px;
+	margin-left: 30px;
+}
+.notice {
+	background: #fcf8e4;
+	padding: 20px 40px;
+	margin-bottom: 30px;
+}
+.notice img {
+	float: left;
+	width: 17px;
+	margin-top: 25px;
+}
+.notice p {
+	float: left;
+	width: 790px;
+	margin-left: 30px;
+}
+.yes {
+	background: #dff0d9;
+	padding: 20px 40px;
+	margin-bottom: 30px;
+}
+.yes img {
+	float: left;
+	width: 17px;
+	margin-top: 25px;
+}
+.yes p {
+	float: left;
+	width: 790px;
+	margin-left: 30px;
+}
+
+
+a.big-link {
+	font-family: 'Raleway', sans-serif; 
+	font-size: 16px;
+	font-weight: 700;
+}
+
+.table-of-contents {
+	margin-bottom: 50px;
+}
+.table-of-contents .left-side {
+	float: left;
+	width: 490px;
+}
+.table-of-contents .right-side {
+	float: right;
+	width: 490px;
+}
+a.main-section {
+	font-family: 'Raleway', sans-serif; 
+	font-size: 14px; 
+	line-height: 1.8; 
+	font-weight: 600;
+	display: inline-block;
+	color: #222;
+	margin-top: 20px;
+}
+a.sub-section {
+	font-family: 'Raleway', sans-serif; 
+	font-size: 13px; 
+	line-height: 1.8; 
+	font-weight: 600;
+	margin-left: 30px;
+	display: block;
+	color: #222;
+}
+.main-section span,
+.sub-section span {
+	color: #999;
+	margin-right: 20px;
+}
+
+.top {
+	float: right;
+	
+	background:transparent url(../images/arrow-top.jpg) no-repeat 25px 5px;
+	color:#222;
+	float:right;
+	font-weight:normal;
+	width:26px;
+	text-transform:lowercase;
+	font-size:12px;
+	padding-right: 15px;
+}

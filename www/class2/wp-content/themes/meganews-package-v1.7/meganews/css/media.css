@@ -1,0 +1,136 @@
+.post_wrapp_width11 {  width: 185px; }
+.post_wrapp_width21 { width: 382px; }
+.post_wrapp_width31 { width: 579px; }
+.post_wrapp_width41 { width: 776px; }
+
+.flexsliderPostSection { width: 579px; height: auto; }
+
+
+@media only screen and (max-width: 1170px) {
+
+	#container, .center, .main-no-sidebar, #footer-inside, #under-footer-inside { width: 960px !important; }
+	.post_wrapp_width1 { width: 150px; }
+	.post_wrapp_width2 { width: 312px; }
+	.post_wrapp_width3 { width: 474px; }
+	.post_wrapp_width4 { width: 636px; }
+	
+	.flexsliderPostSection { width: 474px; height: auto; }
+	
+}
+
+@media only screen and (max-width: 959px) {
+
+	#container, .center, .main-no-sidebar, #footer-inside, #under-footer-inside { width: 769px !important; }
+	
+	.post_wrapp_width1 { width: 117px; }
+	.post_wrapp_width2 { width: 247px; }
+	.post_wrapp_width3 { width: 377px; }
+	.post_wrapp_width4 { width: 507px; }
+	
+	.flexsliderPostSection { width: 377px; height: auto; }
+	
+	h1.post_cat_title_large, h1.post_cat_title_small {    line-height: 20px;    padding: 5px;	font-size: 18px;		letter-spacing: -1px; }
+	
+}
+
+@media only screen and (max-width: 768px) {
+	#container, .center, .main-no-sidebar, #footer-inside, #under-footer-inside { width: auto !important;  }
+	#container, .main-no-sidebar {  padding: 20px; }
+	#header-wrapper, #upper-panel-wrapper, .menu-wrapper  { padding: 0 20px; }
+	
+	.post-grid-thumb-type3 { width: 100% !important; }
+	.post-details-type3 { margin-left: 0 !important; width: 100% !important; }
+	
+	.one_third { margin-right: 0;	width: 100%; }
+	.vc_span8 { width: 100%; }
+	.vc_span4 { width: 100%; margin-left: 0; }
+	
+	.category .vc_span8.type1  {  margin-left: -2.5%; }
+	.category .vc_span8.type1 .post-grid-thumb-type3-wrapper { width: 47.5%; margin-left: 2.5%; float: left; }
+	
+	 .main-menu select { display: block; }	
+	 .sf-menu {  display: none !important; }
+	 .menu-wrapper { position: relative !important; } 
+	 .menu-wrapper-hidden { display: none !important; }	 
+	 
+	 #logo { width: 100%; text-align: center; }
+	 
+	 #right-from-logo-area { margin-top: 0; width: 100% !important; }
+	 
+	 .main-menu { background: none;-moz-box-shadow: none;	-webkit-box-shadow: none;	box-shadow: none; }
+	 
+	.post-details-type3-date-comment { width: 100%; display: block; position: relative; float:left; line-height: 1.3; }
+	
+	.vc_span12.pb35 { width: 100% !important; margin-left: 0 !important; }
+	
+	.sidebar-left-border, .sidebar-right-border { border: none; padding-left: 0px; padding-right: 0; }
+	
+	.clear-later { clear: both; }
+	 
+	 
+	.post_wrapp_width1 { width: auto; margin-bottom: 12px; margin-left: 0; }
+	.post_wrapp_width2 { width: auto; margin-bottom: 12px; margin-left: 0; }
+	.post_wrapp_width3 { width: auto; margin-bottom: 12px; margin-left: 0; max-width: 579px; }
+	.post_wrapp_width4 { width: auto; margin-bottom: 12px; margin-left: 0; }
+	
+	.category .vc_post_section { display: none; }
+	
+	.main-titles { font-size: 25px;  }
+	
+	.flexsliderPostSection { width: 576px; height: auto; }
+	 
+	 
+	 
+	 
+
+}
+
+
+@media (max-width: 479px) { 
+     #upper-panel-left, #upper-panel-right { width: 100%; }
+	 #upper-panel-wrapper ul { text-align: center; }
+	 #upper-panel-wrapper ul li { float: none; display: inline-block; }
+	 #upper-panel-right .fl { float: none; text-align: center; }
+	.latest-post-type2 { margin-left: 0; }
+	.wpb_widgetised_column .post-widget-single-type2  { width: 100; margin-left: 0; }
+	 
+	 
+	.post-grid-thumb-type4 {	width: 80% !important; 	float: left !important;	position: relative !important; 	margin-left: 5%; }
+	.post-details-type4 { 	margin-left: 20% !important; 	float: left !important; position: relative !important; }
+	.wpb_grid .wpb_thumbnails-fluid > .vc_span4 { width: 100% !important; margin-left: 0 !important; }  
+	
+	.category .vc_span8.type1  {  margin-left: 0; }
+	.category .vc_span8.type1 .post-grid-thumb-type3-wrapper { width: 100%; margin-left: 0; }
+	
+	.single-post-thumb-wrapper-type-two {	margin-left: 0; }					
+	.single-post-thumb-wrapper-type-two .single-post-thumb {    width: 100%;	margin-left: 0;}
+	.wpb_row ul.wpb_thumbnails-fluid > [class*="vc_span"],
+	#container .wpb_row ul.wpb_thumbnails-fluid > [class*="vc_span"] { margin-left: 0 !important; }
+	
+
+}
+
+
+@media (max-width: 580px) { 
+	.flexsliderPostSection {
+		width: 500px;
+		height: auto;
+	}
+}
+
+@media (max-width: 500px) { 
+	.flexsliderPostSection {
+		width: 400px;
+		height: auto;
+	}
+}
+
+@media (max-width: 399px) { 
+	.flexsliderPostSection {
+		width: 250px;
+		height: auto;
+	}
+}
+
+
+

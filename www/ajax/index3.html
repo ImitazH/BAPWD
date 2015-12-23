@@ -1,0 +1,35 @@
+<!-- This page is connected with data2.php-->
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title> Ajax with Bootstrap </title>
+
+		<script>
+
+
+			function ajax_request(){
+
+				var xmlhttp = new XMLHttpRequest();
+				xmlhttp.onreadystatechange = function(){
+					if(xmlhttp.readyState == 4 && xmlhttp.status ==  200){ 
+						var resutl = document.getElementById('result');
+						result.innerHTML = xmlhttp.responseText;
+					}
+				}
+				xmlhttp.open('GET','data2.php?var1=Johnson',true);
+				xmlhttp.send();
+			} 
+
+		</script>
+	</head>
+	<body>
+
+
+		<button type="button" onclick="ajax_request()">Click ME</button>
+
+		<div id="result"> This text will be changed once Click Me button is clicked.</div>
+
+
+	</body>
+</html>

@@ -1,0 +1,51 @@
+Usermy course: name: Learn AJAX Techniques Using Bootstrap
+
+
+readyStates:
+================
+0: request not initialized.
+1: server connection established
+2: request received 
+3: processig request
+4: request finished and response is ready.
+
+
+
+status:
+==========
+200: "OK"
+404: page not found
+
+<!-- Database username for this project: Ajax. Password: 123 -->
+<!-- I can control any database by the user I created. With one user I can control one database or any databse.  -->
+// usernamr: ajax and password: 123 diye bar bar error dekhache. Tai root and null pass use korechi and kaj koreche. 
+
+
+
+## Steps to connect mysql with php and run query in the table.
+
+1.
+ $server = 'localhost';
+$user='root';
+$password="";
+$db="school_record";
+
+$conn=mysqli_connect($server,$user,$password,$db);
+
+2.  $sql = " SELECT * FROM student_data";
+
+3. $run = mysqli_query($conn,$sql);
+
+4. $rows= mysqli_fetch_assoc($run);  // eti hobe loop er moddhe. Nicer moto kore.  
+
+
+while ( $rows= mysqli_fetch_assoc($run) ){  
+	echo $rows['student_name']; // means database e thaka student_name er column e je value ache seta show korbe. 
+}
+
+
+## in PHP else if does not requie space. So we will write (elseif)
+in JS , else if require space. so we will write ( else if).
+
+up to lecture 21 - but kaj koreni
+
