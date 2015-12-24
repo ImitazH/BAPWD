@@ -1,1 +1,1 @@
-All files of <h2> PHP Fundamentals </h2> folder.
+All files of <b> PHP Fundamentals </b> folder.
